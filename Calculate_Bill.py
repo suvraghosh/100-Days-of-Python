@@ -1,0 +1,10 @@
+print("Calculate the bill of Restaurant!!")
+print("\n")
+a=float(input("Enter the total bill price: "))
+print("\n")
+b=int(input("If you want,then give some tips: "))
+print("\n")
+c=int(input("Enter the total number of friends: "))
+print("\n")
+pay=(a+(a*b/100))/c
+print(f"You will have to pay only: {round(pay,2)}")
