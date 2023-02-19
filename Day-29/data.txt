@@ -1,0 +1,3 @@
+Amazon| ghoshsuvra@email.com | 123456
+Facebook| ghoshsuvra@email.com | 8765
+Flipkart| ghoshsuvra@email.com | suvra222
