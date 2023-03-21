@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+</head>
+<body>
+      <!--Using jinja-->
+      <h1>Hello world</h1>
+      <h2>{{8 * 10}}</h2>
+      <h3>Random Number: {{ num }}</h3>
+<a href="{{ url_for('get_blog', num=3) }}">Go To Blog</a>
+</body>
+    <footer>
+        <h3>@copyright {{date}}.Built by Suvra</h3>
+    </footer>
+</html>
